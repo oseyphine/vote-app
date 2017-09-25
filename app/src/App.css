@@ -1,0 +1,96 @@
+/*
+Orange PRINCIPAL : #e75c21
+Orange secondaire : #fcd7ba (PS)
+Blanc : #fff
+Noir : #333 ou #343434
+Gris foncé : #757575
+Gris clair : #eaeaea
+
+Bleu pour les liens <a> : #337ab7
+*/
+body{
+  background: url("img/bg-body.png");
+  color: #333;
+
+}
+button{
+  background: white;
+  border: 1px solid #e75c21;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button:hover{
+  background: #e75c21;
+  color: white;
+  cursor: pointer;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  margin: 10px 20px;
+}
+
+.App-header {
+  background: url("img/bg-header.png");
+  padding: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+/*  color: white;
+*/}
+
+.App-header-top{
+  color: #e75c21;
+  background: white;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.App-header-top h2{
+  margin: 0 auto;
+  padding-top:30px;
+}
+nav ul{
+  background: #eaeaea;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav ul li{
+  font-size: 24px;
+  display: inline-block;
+  margin : 0 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background: #e75c21;
+  color: white;
+}
+.App-body{
+  width: 500px;
+  height: 100%;
+  background: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+.App-intro {
+  font-size: large;
+}
+
+footer{
+  font-size: 10;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
